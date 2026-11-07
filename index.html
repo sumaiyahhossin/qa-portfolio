@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sumaiyah Hossin’s QA portfolio, featuring healthcare testing, browser automation, API testing, and SQL validation.">
+<title>Sumaiyah Hossin | QA Engineering Portfolio</title>
+<style>
+:root{color-scheme:light;--paper:#f6f7f2;--ink:#152821;--muted:#485b53;--green:#195742;--line:#cfd9d0;--mint:#dff5d6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+a{color:var(--green);text-underline-offset:.2em}
+a:hover{text-decoration-thickness:.16em}
+a:focus-visible{outline:3px solid #a34b17;outline-offset:4px}
+.wrap{width:min(1100px,calc(100% - 48px));margin:auto}
+header{border-bottom:1px solid var(--line)}
+.bar,nav,.contact{display:flex;flex-wrap:wrap;align-items:center;gap:.65rem 1.2rem}
+.bar{justify-content:space-between;min-height:68px}
+nav a{font-weight:700;font-size:.9rem}
+.hero{padding:clamp(2.5rem,5vw,4rem) 0 2rem}
+.eyebrow{margin:0 0 .55rem;color:var(--green);font-size:.77rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+h1,h2,h3,p,figure{margin-top:0}
+h1,h2{font-family:Georgia,serif;font-weight:500;line-height:1.06;letter-spacing:-.055em}
+h1{font-size:clamp(2.65rem,9vw,6rem);margin-bottom:.2em}
+h2{font-size:clamp(2.15rem,5vw,3.25rem);margin-bottom:.4em}
+h3{line-height:1.2;margin-bottom:.5em;font-size:1.35rem}
+.intro{max-width:56ch;font-size:1.16rem;color:var(--muted);margin-bottom:0}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+.repo{background:var(--green);color:white;border-radius:6px;padding:.45rem .75rem;font-size:.9rem;font-weight:750;text-decoration:none}
+.repo:hover{text-decoration:underline}
+.contact{margin:0;gap:.3rem .9rem;font-size:.88rem;font-style:normal;color:var(--muted);min-width:0}
+.contact-label{color:var(--ink);font-weight:650}
+.contact a{display:inline-flex;align-items:center;gap:.35rem;max-width:100%;color:var(--muted);font-weight:400;text-decoration:none;overflow-wrap:anywhere;padding:.15rem 0}
+.contact-icon{width:1em;height:1em;flex:none}
+.contact a:hover{color:var(--green)}
+.hero-action{margin:1rem 0 0}
+.repo{display:inline-block}
+.skills{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin:1.35rem 0 0}
+.skills div{border-top:2px solid #acc9b6;padding-top:.5rem}
+.skills dt{font-weight:750;font-size:.88rem}
+.skills dd{margin:0;color:var(--muted);font-size:.86rem}
+.project-list{margin-top:1rem;border:1px solid var(--line);border-radius:12px;background:white;overflow:hidden}
+.project{display:grid;grid-template-columns:1fr auto;align-items:center;gap:.55rem 1.1rem;padding:1rem 1.2rem}
+.project+.project{border-top:1px solid var(--line)}
+.project:first-child{background:#eff7eb}
+.project h3,.project p:last-child{margin-bottom:0}
+.project p:last-child{color:var(--muted);font-size:.94rem}
+.result{padding:.22rem .55rem;border-radius:5px;background:var(--mint);font-weight:750;font-size:.84rem;white-space:nowrap;justify-self:start}
+.more{padding-top:.35rem}
+.detail{margin:.6rem 0 0;color:var(--muted);font-size:.92rem}
+.jobs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem}
+.jobs p{margin-bottom:.6rem}
+@media(max-width:720px){.skills{grid-template-columns:repeat(2,minmax(0,1fr))}.project,.jobs{grid-template-columns:1fr}}
+@media(max-width:740px){
+  .bar{align-items:flex-start;flex-direction:column;gap:.5rem;padding:.6rem 0}
+  .bar nav a,.contact a{display:inline-flex;align-items:center;min-height:32px}
+  .contact{column-gap:.8rem}
+}
+@media(max-width:520px){
+  .wrap{width:calc(100% - 32px)}
+  .hero{padding-top:2rem}
+  .contact-label{flex-basis:100%}
+  .contact{row-gap:0}
+  .project{padding:.9rem}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <nav aria-label="Main navigation">
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="https://www.linkedin.com/in/sumaiyah-h-9579a4447/">LinkedIn</a>
+    </nav>
+    <address class="contact">
+      <span class="contact-label">Contact me</span>
+      <a href="mailto:hossin.sumaiyahh@gmail.com"><svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span>hossin.sumaiyahh@gmail.com</span></a>
+      <a href="tel:+13478375963"><svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 3H4a1 1 0 0 0-1 1c0 9.4 7.6 17 17 17a1 1 0 0 0 1-1v-3l-5-2-2 2a14 14 0 0 1-7-7l2-2-2-5Z"/></svg><span>(347) 837-5963</span></a>
+    </address>
+  </div>
+</header>
+<main class="wrap">
+  <div class="hero">
+    <p class="eyebrow">Healthcare QA · Automation testing</p>
+    <h1>Sumaiyah Hossin</h1>
+    <p class="intro">I test healthcare member portals, from plan search and enrollment in the browser to eligibility responses and coverage records behind the scenes.</p>
+    <div class="hero-action">
+      <a class="repo" href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio">View QA portfolio on GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+    <dl class="skills" aria-label="Core QA tools">
+      <div><dt>Browser automation</dt><dd>Cypress, Playwright, Selenium WebDriver, cross-browser testing</dd></div>
+      <div><dt>API &amp; data</dt><dd>Postman, Newman, SQL, Oracle SQL Developer</dd></div>
+      <div><dt>Code &amp; CI</dt><dd>JavaScript, TypeScript, Java, TestNG, Maven, GitHub Actions</dd></div>
+      <div><dt>Test design &amp; defects</dt><dd>Test cases, regression, Jira, Zephyr</dd></div>
+    </dl>
+      <p class="detail more"><strong>Additional familiarity</strong> · Cucumber/Gherkin, Appium, and Jenkins concepts.</p>
+  </div>
+  <section id="work" aria-labelledby="work-title">
+    <h2 id="work-title">Featured GitHub Projects</h2>
+    <p class="detail">Runnable portfolio demos using synthetic data. Each result links to its GitHub Actions run.</p>
+    <div class="project-list">
+      <article class="project">
+        <div>
+          <p class="eyebrow">01 / Cypress · UI and API</p>
+          <h3><a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/tree/main/Healthfirst/Automation/Cypress">Member portal regression suite</a></h3>
+          <p>Covers ZIP-based plan search, eligibility, and enrollment. Uses API assertions for response data and simulated failures to verify what members see when a service is unavailable.</p>
+        </div>
+        <a class="result" href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/actions/runs/42315942312">50 tests passed <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="project">
+        <div>
+          <p class="eyebrow">02 / Java · Selenium · TestNG</p>
+          <h3><a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/tree/main/Humana/Selenium-Automation">Plan search and sign-in</a></h3>
+          <p>Checks plan search and details, successful sign-in, invalid credentials, and required fields in headless Chrome.</p>
+        </div>
+        <a class="result" href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/actions/runs/42316677012">9 tests passed <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="project">
+        <div>
+          <p class="eyebrow">03 / Postman · Newman</p>
+          <h3><a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/tree/main/Healthfirst/API-Testing/Postman">Member API validation</a></h3>
+          <p>Checks status codes and response bodies for member lookup, eligibility, and plan selection. A regression test reproduces a null request that previously crashed the demo server and verifies that it now returns HTTP 400.</p>
+        </div>
+        <a class="result" href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/actions/runs/42315942369">19 assertions passed <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+    <p class="detail more">Also on GitHub · <a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/tree/main/Healthfirst/Automation/Playwright">Playwright suite</a> · <a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/blob/main/Humana/SQL-Testing/SQL-QUERIES.md">SQL validation examples</a> · <a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/blob/main/Humana/Manual-Testing/Defect-Reports/README.md">Defect write-ups</a></p>
+  </section>
+  <section id="experience" aria-labelledby="experience-title">
+    <h2 id="experience-title">Experience</h2>
+    <div class="jobs">
+      <article>
+        <h3>Healthfirst</h3>
+        <p class="detail">Quality Assurance · May 2025 – Present</p>
+        <p>I test eligibility and plan selection workflows, validate API responses in Postman, and use SQL to check the underlying test data.</p>
+        <a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/tree/main/Healthfirst">Explore Healthfirst on GitHub <span aria-hidden="true">↗</span></a>
+      </article>
+      <article>
+        <h3>Humana</h3>
+        <p class="detail">Junior QA Analyst · October 2023 – March 2025</p>
+        <p>I tested ZIP code search, plan comparison, coverage information, and sign-in. I automated selected browser checks with Java and Selenium and tracked defects in Jira.</p>
+        <a href="https://github.com/sumaiyahhossin/QA-Engineering-Portfolio/tree/main/Humana">Explore Humana on GitHub <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+  </section>
+</main>
+</body>
+</html>
